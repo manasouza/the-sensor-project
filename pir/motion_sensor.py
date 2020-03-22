@@ -12,7 +12,7 @@ __version__ = "1.0"
 __maintainer__ = "pimylifeup.com"
 
 pir_sensor = 11
-led = 7
+led = 15
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(led,GPIO.OUT)
