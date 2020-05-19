@@ -32,12 +32,14 @@ def rc_time (pin_to_circuit):
 
     return count
 
-#Catch when script is interupted, cleanup correctly
-try:
-    # Main loop
-    while True:
-        print(rc_time(pin_to_circuit))
-except KeyboardInterrupt:
-    pass
-finally:
-    GPIO.cleanup()
+def get_rc_time():
+    #Catch when script is interupted, cleanup correctly
+    try:
+        # Main loop
+        while True:
+            rc_time_value = rc_time(pin_to_circuit)
+            print(rc_time_value)            
+    except KeyboardInterrupt:
+        pass
+    finally:
+        GPIO.cleanup()
