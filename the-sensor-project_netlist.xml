@@ -1,184 +1,209 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created with Fritzing (http://www.fritzing.org/) -->
-<netlist sketch="the-sensor-project.fzz" date="ter abr 13 22:11:13 2021">
+<netlist sketch="the-sensor-project.fzz" date="qua mai 19 15:28:11 2021">
  <net>
-  <connector name="Pin 1" id="connector1">
-   <part id="854104390" label="R3" title="180Ω Resistor"/>
+  <connector id="connector0" name="VCC">
+   <part title="HC-SR501 Body Sensor Module" id="854120650" label="Sensore PIR HC-SR502"/>
   </connector>
-  <connector name="GPIO 23" id="connector6">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector0" name="3V3">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+  <connector id="connector30" name="3V3">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+  <connector id="connector5" name="VCC">
+   <part title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)" id="854100850" label="Componente1"/>
+  </connector>
+  <connector id="connector1" name="-">
+   <part title="Capacitor Polarized" id="854113070" label="C2"/>
+  </connector>
+  <connector id="connector1" name="pin 1">
+   <part title="Photocell (LDR)" id="854111320" label="R4"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 24" id="connector17">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector2" name="GND">
+   <part title="HC-SR501 Body Sensor Module" id="854120650" label="Sensore PIR HC-SR502"/>
   </connector>
-  <connector name="Pin 1" id="connector1">
-   <part id="854104330" label="R2" title="180Ω Resistor"/>
+  <connector id="connector28" name="GND">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
- </net>
- <net>
-  <connector name="GPIO 25" id="connector21">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector6" name="GND">
+   <part title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)" id="854100850" label="Componente1"/>
   </connector>
-  <connector name="Pin 1" id="connector1">
-   <part id="854104200" label="R1" title="180Ω Resistor"/>
+  <connector id="connector31" name="GND">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
- </net>
- <net>
-  <connector name="GND" id="connector28">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector29" name="GND">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
-  <connector name="GND" id="connector5">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector5" name="GND">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
-  <connector name="GND" id="connector31">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
-  <connector name="GND" id="connector26">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
-  <connector name="GND" id="connector29">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
-  <connector name="GND" id="connector6">
-   <part id="854100850" label="Componente1" title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)"/>
+  <connector id="connector26" name="GND">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="SCL" id="connector9">
-   <part id="854100850" label="Componente1" title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)"/>
+  <connector id="connector1" name="Pin 1">
+   <part title="180Ω Resistor" id="854104390" label="R3"/>
   </connector>
-  <connector name="GPIO 1" id="connector4">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
- </net>
- <net>
-  <connector name="GPIO 0" id="connector2">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
-  <connector name="SDA" id="connector10">
-   <part id="854100850" label="Componente1" title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)"/>
+  <connector id="connector6" name="GPIO 23">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="VCC" id="connector5">
-   <part id="854100850" label="Componente1" title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)"/>
+  <connector id="connector1" name="Pin 1">
+   <part title="180Ω Resistor" id="854104330" label="R2"/>
   </connector>
-  <connector name="3V3" id="connector0">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
-  <connector name="3V3" id="connector30">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector17" name="GPIO 24">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="cathode" id="connector0">
-   <part id="854109430" label="LED2" title="Yellow (595nm) LED"/>
+  <connector id="connector1" name="Pin 1">
+   <part title="180Ω Resistor" id="854104200" label="R1"/>
   </connector>
-  <connector name="cathode" id="connector0">
-   <part id="854109110" label="LED2" title="Yellow (595nm) LED"/>
-  </connector>
-  <connector name="cathode" id="connector0">
-   <part id="854108560" label="LED3" title="Green (555nm) LED"/>
-  </connector>
-  <connector name="cathode" id="connector0">
-   <part id="854107310" label="LED1" title="Red (633nm) LED"/>
+  <connector id="connector21" name="GPIO 25">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="anode" id="connector1">
-   <part id="854109430" label="LED2" title="Yellow (595nm) LED"/>
+  <connector id="connector9" name="SCL">
+   <part title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)" id="854100850" label="Componente1"/>
   </connector>
-  <connector name="anode" id="connector1">
-   <part id="854109110" label="LED2" title="Yellow (595nm) LED"/>
-  </connector>
-  <connector name="Pin 0" id="connector0">
-   <part id="854104330" label="R2" title="180Ω Resistor"/>
+  <connector id="connector4" name="GPIO 1">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="anode" id="connector1">
-   <part id="854108560" label="LED3" title="Green (555nm) LED"/>
+  <connector id="connector2" name="GPIO 0">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
-  <connector name="Pin 0" id="connector0">
-   <part id="854104390" label="R3" title="180Ω Resistor"/>
-  </connector>
- </net>
- <net>
-  <connector name="anode" id="connector1">
-   <part id="854107310" label="LED1" title="Red (633nm) LED"/>
-  </connector>
-  <connector name="Pin 0" id="connector0">
-   <part id="854104200" label="R1" title="180Ω Resistor"/>
+  <connector id="connector10" name="SDA">
+   <part title="Barometric Pressure Sensor - BMP180 Breakout (GY-68)" id="854100850" label="Componente1"/>
   </connector>
  </net>
  <net>
-  <connector name="5V" id="connector1">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector0" name="pin 0">
+   <part title="Photocell (LDR)" id="854111320" label="R4"/>
   </connector>
-  <connector name="5V" id="connector27">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
-  </connector>
- </net>
- <net>
-  <connector name="GPIO 14" id="connector7">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector15" name="GPIO 4">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 22" id="connector14">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector0" name="cathode">
+   <part title="Red (633nm) LED" id="854107310" label="LED1"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Yellow (595nm) LED" id="854109110" label="LED2"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Yellow (595nm) LED" id="854109430" label="LED2"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part title="Green (555nm) LED" id="854108560" label="LED3"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 7" id="connector25">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector1" name="anode">
+   <part title="Red (633nm) LED" id="854107310" label="LED1"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="180Ω Resistor" id="854104200" label="R1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 10" id="connector18">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector1" name="anode">
+   <part title="Green (555nm) LED" id="854108560" label="LED3"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="180Ω Resistor" id="854104390" label="R3"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 8" id="connector23">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector1" name="anode">
+   <part title="Yellow (595nm) LED" id="854109110" label="LED2"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part title="Yellow (595nm) LED" id="854109430" label="LED2"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="180Ω Resistor" id="854104330" label="R2"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 17" id="connector10">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector0" name="+">
+   <part title="Capacitor Polarized" id="854113070" label="C2"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 15" id="connector9">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector1" name="OUT">
+   <part title="HC-SR501 Body Sensor Module" id="854120650" label="Sensore PIR HC-SR502"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 9" id="connector20">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector11" name="GPIO 18">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 11" id="connector22">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector1" name="5V">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+  <connector id="connector27" name="5V">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 4" id="connector15">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector10" name="GPIO 17">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 21" id="connector12">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector7" name="GPIO 14">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
  <net>
-  <connector name="GPIO 18" id="connector11">
-   <part id="854102120" label="Raspberry Pi B rev1" title="Raspberry Pi B rev1"/>
+  <connector id="connector25" name="GPIO 7">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18" name="GPIO 10">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23" name="GPIO 8">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12" name="GPIO 21">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="GPIO 15">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20" name="GPIO 9">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22" name="GPIO 11">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14" name="GPIO 22">
+   <part title="Raspberry Pi B rev1" id="854102120" label="Raspberry Pi B rev1"/>
   </connector>
  </net>
 </netlist>
